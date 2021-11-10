@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Amazing-math login page mockup</title>
+<style>
+body {
+  background-color: #09182C;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #B2B2B2;
+}
+.login_div{
+    left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 35%;
+  height:75%;
+  border: 3px solid #121212;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+}
+form {
+    display: inline-block;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #323233;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #2B2B2B;
+}
+</style>
+</head>
+<body>
+<center><h1>Login</h1></center>
+<div id="login_form_div" class="login_div" name="login_form_div" style="text-align: center;">
+<h4>
+Login with your Amazing-Math account!
+</h4>
+<center>
+<form action="#">
+  <input type="text" id="fname" name="fname" placeholder="Username"><br>
+  <input type="text" id="lname" name="lname" placeholder="Password"><br><br>
+  <input type="submit" value="Submit">
+</form>
+</center>
+</div>
+</body>
+</html>
