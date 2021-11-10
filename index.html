@@ -21,9 +21,6 @@ body {
   background-color: rgba(0, 0, 0, 0.75);
   position: absolute;
 }
-form {
-    display: inline-block;
-}
 input[type=text], select, textarea {
   width: 100%;
   border: 1px solid #ccc;
@@ -41,6 +38,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   float: right;
+  margin: 0 auto;
 }
 
 input[type=submit]:hover {
@@ -55,7 +53,7 @@ input[type=submit]:hover {
 Login with your Amazing-Math account!
 </h4>
 <center>
-<form action="#">
+<form action="#" style="display: inline-block;">
   <input type="text" id="fname" name="fname" placeholder="Username"><br>
   <input type="text" id="lname" name="lname" placeholder="Password"><br><br>
   <input type="submit" value="Submit">
